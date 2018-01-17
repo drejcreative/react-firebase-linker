@@ -1,0 +1,17 @@
+header {
+  color: #fff;
+  background-color: #0C1821;
+  padding: 25px; }
+  header .header-wrap {
+    display: flex;
+    justify-content: space-between; }
+  header h1 {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle; }
+  header i {
+    vertical-align: middle;
+    margin-left: 12px; }

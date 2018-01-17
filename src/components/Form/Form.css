@@ -1,0 +1,46 @@
+.add-item {
+  border-radius: 2px;
+  border-top: 3px solid #0C1821;
+  margin-right: 50px;
+  background-color: #fff;
+  padding: 25px;
+  box-shadow: 0 1px 3px rgba(12, 24, 33, 0.12), 0 1px 2px rgba(12, 24, 33, 0.24);
+  width: 0%;
+  margin-right: auto;
+  transform: translateX(-200%);
+  transition: all 0.3s cubic-bezier(0.43, -0.02, 1, 0.82); }
+  .add-item.open {
+    transform: translateX(0%);
+    width: 25%; }
+  .add-item h3 {
+    color: #1B2A41; }
+  .add-item input {
+    font-size: 22px;
+    color: #000;
+    background: #CCC9DC;
+    padding: 18px 10px;
+    font-size: 16px;
+    margin-bottom: 17px;
+    border: 0;
+    display: block;
+    width: calc(100% - 20px); }
+  .add-item button {
+    width: 100%;
+    margin-top: 10px; }
+  .add-item form {
+    width: 100%;
+    overflow: hidden; }
+
+.add i {
+  cursor: pointer;
+  z-index: 100;
+  font-size: 40px;
+  color: #FA6900;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  transition: all 0.5s ease; }
+
+.add.open i {
+  transform: rotate(45deg);
+  left: 18%; }
