@@ -1,6 +1,6 @@
 # React Firebase Linker
 [Visit App](https://react-data-dd905.firebaseapp.com)
-![Project Login](1.png)
+![Project Login](https://lh5.googleusercontent.com/qB12JehNlzGhOjFMVcbRkg1_Albwr7U-0dH-B-raUcBy3g8hgLT7W20rLVa-TexQkCePbJ7LwlC3wkjvTuoP=w1920-h949-r)
 ![Project Dashboard](2.png)
 ![Adding new Client](3.png)
 
