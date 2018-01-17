@@ -67,7 +67,7 @@ body {
       justify-content: center;
       align-items: center;
       font-weight: bold;
-      font-size: 20px;
+      font-size: 14px;
       position: absolute;
       right: 10px;
       top: 290px;
@@ -134,9 +134,17 @@ body {
       border-radius: 0;
       border-right: 1px solid $blue;
       margin: 16px 0;
+      &:disabled {
+        i {
+          color: $dark;
+        }
+      }
       &.delete {
         &:hover {
           i { color: red }
+        }
+        &:disabled {
+          i {color: $dark!important;}
         }
       }
       &:last-child {
@@ -165,6 +173,9 @@ button {
   font-size: 14px;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
   padding: 10px 6px;
+  &:disabled {
+    cursor: not-allowed;
+  }
 }
 
 .user-profile {

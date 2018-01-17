@@ -28,10 +28,17 @@ const Item = (props) => {
             </div>
 
             <footer>
-                <button onClick={() => editItem(props.item)} ><i className="fa fa-pencil" aria-hidden="true"></i></button>
-                { props.item.user === props.username || props.item.user === props.useremail ?
-                    <button className="delete" onClick={() => removeItem(props.item.id)}><i className="fa fa-trash" aria-hidden="true"></i></button> : null
-                }
+                <button
+                  onClick={() => editItem(props.item)}
+                  disabled={props.item.user != props.username} >
+                  <i className="fa fa-pencil" aria-hidden="true"></i>
+                </button>
+                <button
+                  className="delete"
+                  onClick={() => removeItem(props.item.id)}
+                  disabled={props.item.user != props.username} >
+                  <i className="fa fa-trash" aria-hidden="true"></i>
+                </button>
             </footer>
 
           </li>
