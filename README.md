@@ -7,9 +7,9 @@
 This is React one page demo app for saving various hoping links. React app on Front End use Firebase Backend for authentication and database.
 
 ## Getting it
-Run 'git clone https://github.com/drejcreative/react-firebase-linker.git' in terminal.
+Run `git clone https://github.com/drejcreative/react-firebase-linker.git` in terminal.
 
-then runt 'yarn install' to install all dependencies.
+then runt `yarn install` to install all dependencies.
 
 ## Development server
 Run `npm start` for a dev server.
