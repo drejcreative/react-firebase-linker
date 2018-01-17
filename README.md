@@ -1,8 +1,8 @@
-# Movie Place
+# React Firebase Linker
 [Visit App](https://drejcreative.github.io/movie-place-React/)
-[Project Login](1.png)
-[Project Dashboard](2.png)
-[Adding new Client](3.png)
+![Project Login](1.png)
+![Project Dashboard](2.png)
+![Adding new Client](3.png)
 
 This is React one page demo app for saving various hoping links. React app on Front End use Firebase Backend for authentication and database.
 
