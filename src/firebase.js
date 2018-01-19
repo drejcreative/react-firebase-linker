@@ -1,12 +1,12 @@
 import firebase from 'firebase';
 
 const config = {
-  apiKey: "####################################",
-  authDomain: "####################################",
-  databaseURL: "####################################",
-  projectId: "####################################",
-  storageBucket: "####################################",
-  messagingSenderId: "####################################"
+  apiKey: "AIzaSyCCsxHSKLxAGdYziVIRuisZMG8xA-xFIFM",
+  authDomain: "react-data-dd905.firebaseapp.com",
+  databaseURL: "https://react-data-dd905.firebaseio.com",
+  projectId: "react-data-dd905",
+  storageBucket: "react-data-dd905.appspot.com",
+  messagingSenderId: "601124437985"
 };
 firebase.initializeApp(config);
 
