@@ -9,7 +9,7 @@ This is React one page demo app for saving various shopping links. React app on 
 ## Getting it
 Run `git clone https://github.com/drejcreative/react-firebase-linker.git` in terminal.
 
-then runt `yarn install` to install all dependencies.
+Then run `yarn install` to install all dependencies.
 
 ## Development server
 Run `npm start` for a dev server.
